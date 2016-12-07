@@ -1,14 +1,12 @@
 source "https://rubygems.org/"
 
-gem "pg"
 gem "sinatra"
+gem "foundation"
+gem "sass", "~> 3.4.0"
 
 group :development, :test do
   gem "pry"
-  gem "rspec"
 end
 
 group :test do
-  gem "capybara"
-  gem "launchy"
 end
