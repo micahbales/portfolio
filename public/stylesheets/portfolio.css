@@ -14,29 +14,61 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
-/* line 15, ../scss/portfolio.scss */
-.header-title {
-  margin-top: 15px;
-}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  /* line 17, ../scss/portfolio.scss */
+  .header-title {
+    margin-top: 15px;
+  }
 
-/* line 19, ../scss/portfolio.scss */
-.header-subtitle {
-  margin-top: -15px;
-}
+  /* line 21, ../scss/portfolio.scss */
+  .header-subtitle {
+    margin-top: -15px;
+  }
 
-/* line 23, ../scss/portfolio.scss */
-.header-portrait {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 100%;
-  float: left;
+  /* line 25, ../scss/portfolio.scss */
+  .header-portrait {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    float: left;
+  }
+  /* line 33, ../scss/portfolio.scss */
+  .header-portrait img {
+    display: inline;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+  }
 }
-/* line 31, ../scss/portfolio.scss */
-.header-portrait img {
-  display: inline;
-  margin: 0 auto;
-  width: 85%;
-  height: auto;
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  /* line 44, ../scss/portfolio.scss */
+  .header-title {
+    margin-top: 5px;
+  }
+
+  /* line 48, ../scss/portfolio.scss */
+  .header-subtitle {
+    margin-top: -15px;
+  }
+
+  /* line 52, ../scss/portfolio.scss */
+  .header-portrait {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    float: left;
+  }
+  /* line 60, ../scss/portfolio.scss */
+  .header-portrait img {
+    display: inline;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+  }
 }
