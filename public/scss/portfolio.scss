@@ -119,3 +119,16 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
+/* remove stackoverflow icon if it would wrap */
+@media screen and (max-width: 435px) {
+  .bio-main {
+    .contact {
+      .social-icons {
+        a:nth-child(5) {
+          display: none;
+        }
+      }
+    }
+  }
+}
