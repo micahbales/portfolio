@@ -8,8 +8,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Gentium Book Basic', Georgia, serif;
 }
 
-.wrapper {
-  margin: 10px;
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.bio-header {
+
+}
+
+.bio-main {
+  margin-top: 40px;
+  max-width: 1000px;
+
+  .about {
+    width: 50%;
+    margin: auto;
+    float: left;
+  }
+
+  .contact {
+    width: 50%;
+    display: inline-block;
+  }
 }
 
 /* Small only */
@@ -41,6 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+
+  .main, footer {
+    margin: 20px;
+  }
+
   .header-title {
       margin-top: 5px;
   }

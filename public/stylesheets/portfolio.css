@@ -10,23 +10,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 11, ../scss/portfolio.scss */
-.wrapper {
-  margin: 10px;
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 23, ../scss/portfolio.scss */
+.bio-main {
+  margin-top: 40px;
+  max-width: 1000px;
+}
+/* line 27, ../scss/portfolio.scss */
+.bio-main .about {
+  width: 50%;
+  margin: auto;
+  float: left;
+}
+/* line 33, ../scss/portfolio.scss */
+.bio-main .contact {
+  width: 50%;
+  display: inline-block;
 }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  /* line 17, ../scss/portfolio.scss */
+  /* line 41, ../scss/portfolio.scss */
   .header-title {
     margin-top: 15px;
   }
 
-  /* line 21, ../scss/portfolio.scss */
+  /* line 45, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 25, ../scss/portfolio.scss */
+  /* line 49, ../scss/portfolio.scss */
   .header-portrait {
     width: 100px;
     height: 100px;
@@ -35,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     float: left;
   }
-  /* line 33, ../scss/portfolio.scss */
+  /* line 57, ../scss/portfolio.scss */
   .header-portrait img {
     display: inline;
     margin: 0 auto;
@@ -45,17 +67,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  /* line 44, ../scss/portfolio.scss */
+  /* line 69, ../scss/portfolio.scss */
+  .main, footer {
+    margin: 20px;
+  }
+
+  /* line 73, ../scss/portfolio.scss */
   .header-title {
     margin-top: 5px;
   }
 
-  /* line 48, ../scss/portfolio.scss */
+  /* line 77, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 52, ../scss/portfolio.scss */
+  /* line 81, ../scss/portfolio.scss */
   .header-portrait {
     width: 125px;
     height: 125px;
@@ -64,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     float: left;
   }
-  /* line 60, ../scss/portfolio.scss */
+  /* line 89, ../scss/portfolio.scss */
   .header-portrait img {
     display: inline;
     margin: 0 auto;
