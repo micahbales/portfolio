@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Playfair+Display');
 
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Gentium Book Basic', Georgia, serif;
 }
 
-p, small {
-  font-family: 'Playfair Display', sans-serif;
+.wrapper {
+  margin: 10px;
 }
 
 .header-title {
-  font-size: 30px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .header-subtitle {
-  font-size: 24px;
   margin-top: -15px;
 }
 
@@ -24,6 +26,7 @@ p, small {
   position: relative;
   overflow: hidden;
   border-radius: 100%;
+  float: left;
 
   img {
     display: inline;

@@ -1,35 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Playfair+Display");
 /* line 3, ../scss/portfolio.scss */
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+/* line 7, ../scss/portfolio.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Gentium Book Basic', Georgia, serif;
 }
 
-/* line 7, ../scss/portfolio.scss */
-p, small {
-  font-family: 'Playfair Display', sans-serif;
-}
-
 /* line 11, ../scss/portfolio.scss */
-.header-title {
-  font-size: 30px;
-  margin-top: 20px;
+.wrapper {
+  margin: 10px;
 }
 
-/* line 16, ../scss/portfolio.scss */
+/* line 15, ../scss/portfolio.scss */
+.header-title {
+  margin-top: 15px;
+}
+
+/* line 19, ../scss/portfolio.scss */
 .header-subtitle {
-  font-size: 24px;
   margin-top: -15px;
 }
 
-/* line 21, ../scss/portfolio.scss */
+/* line 23, ../scss/portfolio.scss */
 .header-portrait {
   width: 100px;
   height: 100px;
   position: relative;
   overflow: hidden;
   border-radius: 100%;
+  float: left;
 }
-/* line 28, ../scss/portfolio.scss */
+/* line 31, ../scss/portfolio.scss */
 .header-portrait img {
   display: inline;
   margin: 0 auto;
