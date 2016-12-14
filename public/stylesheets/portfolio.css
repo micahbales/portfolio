@@ -35,20 +35,29 @@ h1, h2, h3, h4, h5, h6 {
   width: 50%;
   display: inline-block;
 }
+/* line 37, ../scss/portfolio.scss */
+.bio-main .contact p {
+  margin-bottom: 0px;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  /* line 41, ../scss/portfolio.scss */
+  /* line 46, ../scss/portfolio.scss */
+  .main, footer {
+    margin: 10px;
+  }
+
+  /* line 50, ../scss/portfolio.scss */
   .header-title {
     margin-top: 15px;
   }
 
-  /* line 45, ../scss/portfolio.scss */
+  /* line 54, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 49, ../scss/portfolio.scss */
+  /* line 58, ../scss/portfolio.scss */
   .header-portrait {
     width: 100px;
     height: 100px;
@@ -57,32 +66,37 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     float: left;
   }
-  /* line 57, ../scss/portfolio.scss */
+  /* line 66, ../scss/portfolio.scss */
   .header-portrait img {
     display: inline;
     margin: 0 auto;
     width: 85%;
     height: auto;
   }
+
+  /* line 76, ../scss/portfolio.scss */
+  .bio-main .contact .social-icons {
+    font-size: 35px;
+  }
 }
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  /* line 69, ../scss/portfolio.scss */
+  /* line 86, ../scss/portfolio.scss */
   .main, footer {
     margin: 20px;
   }
 
-  /* line 73, ../scss/portfolio.scss */
+  /* line 90, ../scss/portfolio.scss */
   .header-title {
     margin-top: 5px;
   }
 
-  /* line 77, ../scss/portfolio.scss */
+  /* line 94, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 81, ../scss/portfolio.scss */
+  /* line 98, ../scss/portfolio.scss */
   .header-portrait {
     width: 125px;
     height: 125px;
@@ -91,11 +105,16 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     float: left;
   }
-  /* line 89, ../scss/portfolio.scss */
+  /* line 106, ../scss/portfolio.scss */
   .header-portrait img {
     display: inline;
     margin: 0 auto;
     width: 85%;
     height: auto;
+  }
+
+  /* line 116, ../scss/portfolio.scss */
+  .bio-main .contact .social-icons {
+    font-size: 50px;
   }
 }

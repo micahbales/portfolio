@@ -33,11 +33,20 @@ h1, h2, h3, h4, h5, h6 {
   .contact {
     width: 50%;
     display: inline-block;
+
+    p {
+      margin-bottom: 0px;
+    }
   }
 }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
+
+  .main, footer {
+    margin: 10px;
+  }
+
   .header-title {
     margin-top: 15px;
   }
@@ -59,6 +68,14 @@ h1, h2, h3, h4, h5, h6 {
       margin: 0 auto;
       width: 85%;
       height: auto;
+    }
+  }
+
+  .bio-main {
+    .contact {
+      .social-icons {
+        font-size: 35px;
+      }
     }
   }
 }
@@ -91,6 +108,14 @@ h1, h2, h3, h4, h5, h6 {
       margin: 0 auto;
       width: 85%;
       height: auto;
+    }
+  }
+
+  .bio-main {
+    .contact {
+      .social-icons {
+        font-size: 50px;
+      }
     }
   }
 }
