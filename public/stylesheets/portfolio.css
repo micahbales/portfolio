@@ -52,34 +52,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* center social icons */
-/* line 56, ../scss/portfolio.scss */
-.social-icons {
-  width: 100%;
-}
-/* line 59, ../scss/portfolio.scss */
-.social-icons column {
+/* line 57, ../scss/portfolio.scss */
+.bio-main .social-icons {
+  position: relative;
   width: 50%;
   margin: 0 auto;
 }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-  /* line 68, ../scss/portfolio.scss */
+  /* line 67, ../scss/portfolio.scss */
   .main, footer {
     margin: 10px;
   }
 
-  /* line 72, ../scss/portfolio.scss */
+  /* line 71, ../scss/portfolio.scss */
   .header-title {
     margin-top: 15px;
   }
 
-  /* line 76, ../scss/portfolio.scss */
+  /* line 75, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 80, ../scss/portfolio.scss */
+  /* line 79, ../scss/portfolio.scss */
   .header-portrait {
     width: 100px;
     height: 100px;
@@ -88,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     float: left;
   }
-  /* line 88, ../scss/portfolio.scss */
+  /* line 87, ../scss/portfolio.scss */
   .header-portrait img {
     display: inline;
     margin: 0 auto;
@@ -96,9 +93,10 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
   }
 
-  /* line 98, ../scss/portfolio.scss */
+  /* line 97, ../scss/portfolio.scss */
   .bio-main .contact .social-icons {
-    font-size: 35px;
+    margin-top: .3em;
+    font-size: 2.5em;
   }
 }
 /* Medium and up */
@@ -137,6 +135,6 @@ h1, h2, h3, h4, h5, h6 {
 
   /* line 138, ../scss/portfolio.scss */
   .bio-main .contact .social-icons {
-    font-size: 65px;
+    font-size: 4em;
   }
 }
