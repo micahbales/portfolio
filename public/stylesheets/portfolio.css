@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Playfair+Display");
+/* line 3, ../scss/portfolio.scss */
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+/* line 7, ../scss/portfolio.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gentium Book Basic', Georgia, serif;
+}
+
+/* line 11, ../scss/portfolio.scss */
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 23, ../scss/portfolio.scss */
+.bio-main {
+  margin-top: 40px;
+  max-width: 1000px;
+}
+/* line 27, ../scss/portfolio.scss */
+.bio-main .about {
+  width: 50%;
+  margin: auto;
+  float: left;
+}
+/* line 32, ../scss/portfolio.scss */
+.bio-main .about li {
+  float: left;
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-right: 1em;
+}
+/* line 38, ../scss/portfolio.scss */
+.bio-main .about li span {
+  position: relative;
+  left: -15px;
+}
+/* line 45, ../scss/portfolio.scss */
+.bio-main .contact {
+  width: 50%;
+  display: inline-block;
+}
+/* line 49, ../scss/portfolio.scss */
+.bio-main .contact p {
+  margin-bottom: 0px;
+}
+
+/* center social icons */
+/* line 57, ../scss/portfolio.scss */
+.bio-main .social-icons {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  /* line 67, ../scss/portfolio.scss */
+  .main, footer {
+    margin: 10px;
+  }
+
+  /* line 71, ../scss/portfolio.scss */
+  .header-title {
+    margin-top: 15px;
+  }
+
+  /* line 75, ../scss/portfolio.scss */
+  .header-subtitle {
+    margin-top: -15px;
+  }
+
+  /* line 79, ../scss/portfolio.scss */
+  .header-portrait {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    float: left;
+  }
+  /* line 87, ../scss/portfolio.scss */
+  .header-portrait img {
+    display: inline;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+  }
+
+  /* line 97, ../scss/portfolio.scss */
+  .bio-main .contact .social-icons {
+    margin-top: .3em;
+    font-size: 2.5em;
+  }
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  /* line 108, ../scss/portfolio.scss */
+  .main, footer {
+    margin: 20px;
+  }
+
+  /* line 112, ../scss/portfolio.scss */
+  .header-title {
+    margin-top: 5px;
+  }
+
+  /* line 116, ../scss/portfolio.scss */
+  .header-subtitle {
+    margin-top: -15px;
+  }
+
+  /* line 120, ../scss/portfolio.scss */
+  .header-portrait {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    float: left;
+  }
+  /* line 128, ../scss/portfolio.scss */
+  .header-portrait img {
+    display: inline;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
+  }
+
+  /* line 138, ../scss/portfolio.scss */
+  .bio-main .contact .social-icons {
+    font-size: 4em;
+  }
+}
