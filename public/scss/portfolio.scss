@@ -18,27 +18,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash {
   width: 100%;
-  content: url("/images/micah_bales_desk.jpg");
-  position: absolute;
-  top: -23vw;
-  left: 0px;
+  position: relative;
 }
 
 .splash-button {
-  padding-top: 5%;
-  width: 20%;
-  position: relative;
-  left: 38vw;
-  top: 35vw;
-  border: .5vw solid red;
-}
-
-.bio {
-  margin-top: 50vw;
-}
-
-.bio-header {
-
+  width: auto;
+  position: absolute;
+  left: 38%;
+  bottom: 35%;
+  border: 3px solid #0078A0;
+  border-radius: 5px;
+  padding: 0px 3px;
+  color: #FFFFFF;
 }
 
 .bio-main {
@@ -71,10 +62,8 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 0px;
     }
   }
-}
 
-/* center social icons */
-.bio-main {
+  /* center social icons */
   .social-icons {
     position: relative;
     width: 50%;
@@ -82,43 +71,39 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Small only */
-@media screen and (max-width: 39.9375em) {
+.bio, footer {
+  margin: 10px;
+}
 
-  .main, footer {
-    margin: 10px;
+.header-title {
+  margin-top: 15px;
+}
+
+.header-subtitle {
+  margin-top: -15px;
+}
+
+.header-portrait {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  float: left;
+
+  img {
+    display: inline;
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
   }
+}
 
-  .header-title {
-    margin-top: 15px;
-  }
-
-  .header-subtitle {
-    margin-top: -15px;
-  }
-
-  .header-portrait {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 100%;
-    float: left;
-
-    img {
-      display: inline;
-      margin: 0 auto;
-      width: 85%;
-      height: auto;
-    }
-  }
-
-  .bio-main {
-    .contact {
-      .social-icons {
-        margin-top: .3em;
-        font-size: 2.5em;
-      }
+.bio-main {
+  .contact {
+    .social-icons {
+      margin-top: .3em;
+      font-size: 2.5em;
     }
   }
 }
@@ -126,7 +111,16 @@ h1, h2, h3, h4, h5, h6 {
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
-  .main, footer {
+  .splash-button {
+    width: 23.7%;
+    position: absolute;
+    bottom: 40%;
+    border: 5px solid #0078A0;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .bio, footer {
     margin: 20px;
   }
 
@@ -141,17 +135,6 @@ h1, h2, h3, h4, h5, h6 {
   .header-portrait {
     width: 125px;
     height: 125px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 100%;
-    float: left;
-
-    img {
-      display: inline;
-      margin: 0 auto;
-      width: 85%;
-      height: auto;
-    }
   }
 
   .bio-main {
@@ -160,5 +143,14 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 4em;
       }
     }
+  }
+}
+
+/* large and up */
+
+@media screen and (min-width: 875px) {
+
+  .splash-button {
+    font-size: 36px;
   }
 }
