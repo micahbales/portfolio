@@ -22,16 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .splash-button {
-  width: auto;
-  position: absolute;
-  left: 38%;
-  bottom: 35%;
-  background:#7f7f7f;
-  background:rgba(255,255,255,0.4);
-  border: 3px solid #0078A0;
-  border-radius: 5px;
-  padding: 0px 3px;
-  color: #FFFFFF;
+  visibility: hidden;
 }
 
 .bio-main {
@@ -114,10 +105,17 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 40em) {
 
   .splash-button {
+    visibility: visible;
     width: 23.7%;
     position: absolute;
+    left: 38%;
     bottom: 40%;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.4);
     border: 3px solid #0078A0;
+    border-radius: 5px;
+    padding: 0px 3px;
+    color: #FFFFFF;
     font-size: 26px;
     text-align: center;
   }
