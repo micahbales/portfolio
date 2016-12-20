@@ -124,37 +124,38 @@ h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF;
     font-size: 26px;
     text-align: center;
+    cursor: pointer;
   }
 
-  /* line 123, ../scss/portfolio.scss */
+  /* line 124, ../scss/portfolio.scss */
   .bio, footer {
     margin: 20px;
   }
 
-  /* line 127, ../scss/portfolio.scss */
+  /* line 128, ../scss/portfolio.scss */
   .header-title {
     margin-top: 5px;
   }
 
-  /* line 131, ../scss/portfolio.scss */
+  /* line 132, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 135, ../scss/portfolio.scss */
+  /* line 136, ../scss/portfolio.scss */
   .header-portrait {
     width: 125px;
     height: 125px;
   }
 
-  /* line 142, ../scss/portfolio.scss */
+  /* line 143, ../scss/portfolio.scss */
   .bio-main .contact .social-icons {
     font-size: 4em;
   }
 }
 /* large and up */
 @media screen and (min-width: 875px) {
-  /* line 153, ../scss/portfolio.scss */
+  /* line 154, ../scss/portfolio.scss */
   .splash-button {
     font-size: 36px;
   }
