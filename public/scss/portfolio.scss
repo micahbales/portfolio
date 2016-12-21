@@ -101,6 +101,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.portfolio {
+
+  h1, h3 {
+    text-align: center;
+  }
+
+  .project {
+    img {
+      width: 100%;
+    }
+  }
+}
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
