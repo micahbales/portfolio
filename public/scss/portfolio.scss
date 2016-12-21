@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bio-main {
   margin-top: 40px;
-  max-width: 1000px;
 
   .about {
     width: 50%;
@@ -143,7 +142,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .bio, footer {
-    margin: 20px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .header-title {
