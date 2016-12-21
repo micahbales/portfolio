@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio {
 
-  h2 {
+  h2, h3, p {
     text-align: center;
   }
 
@@ -137,6 +137,11 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
   }
 
+  .after-splash {
+    width: 75%;
+    margin: 0 auto;
+  }
+
   .bio, footer {
     margin: 20px;
   }
@@ -165,12 +170,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio {
   padding: 3%;
+  width: 95%;
+  margin: 0 auto;
 
   .project {
     margin: 0;
+
     .right {
       float: right;
     }
+
     .left {
       float: left;
     }
