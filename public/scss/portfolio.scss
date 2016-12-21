@@ -103,11 +103,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio {
 
-  h1, h3 {
+  h2 {
     text-align: center;
   }
 
+  h2, p {
+    padding: 2% 5% 0% 5%;
+  }
+
   .project {
+    margin-top: 2%;
+
+    .columns {
+      padding: 0;
+    }
+
     img {
       width: 100%;
     }
@@ -156,6 +166,18 @@ h1, h2, h3, h4, h5, h6 {
       .social-icons {
         font-size: 4em;
       }
+    }
+  }
+}
+
+.portfolio {
+
+  .project {
+    .right {
+      float: right;
+    }
+    .left {
+      float: left;
     }
   }
 }
