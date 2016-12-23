@@ -2,8 +2,6 @@
 
 body {
   font-family: 'Playfair Display', sans-serif;
-  background-color:	#FEFEFA;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -110,6 +108,10 @@ h1, h2, h3, h4, h5, h6 {
 
     .columns {
       padding: 0;
+    }
+
+    .project-description {
+      background-color: #FEFEFE;
     }
   }
 }
