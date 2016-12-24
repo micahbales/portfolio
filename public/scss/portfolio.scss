@@ -106,6 +106,10 @@ h1, h2, h3, h4, h5, h6 {
   .project {
     margin: 2%;
 
+    .mask {
+      border: 3px solid #003756;
+    }
+
     .columns {
       padding: 0;
     }
