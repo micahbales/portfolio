@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 109, ../scss/portfolio.scss */
 .portfolio .project .mask {
-  border: 3px solid #003756;
+  border: 1px solid #003756;
 }
 /* line 113, ../scss/portfolio.scss */
 .portfolio .project .columns {
@@ -208,17 +208,21 @@ footer p {
   margin: 0;
 }
 /* line 198, ../scss/portfolio.scss */
+.portfolio .project .mask {
+  border: 3px solid #003756;
+}
+/* line 202, ../scss/portfolio.scss */
 .portfolio .project .right {
   float: right;
 }
-/* line 202, ../scss/portfolio.scss */
+/* line 206, ../scss/portfolio.scss */
 .portfolio .project .left {
   float: left;
 }
 
 /* large and up */
 @media screen and (min-width: 875px) {
-  /* line 212, ../scss/portfolio.scss */
+  /* line 216, ../scss/portfolio.scss */
   .splash-button {
     font-size: 36px;
   }

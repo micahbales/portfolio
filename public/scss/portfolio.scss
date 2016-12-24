@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 2%;
 
     .mask {
-      border: 3px solid #003756;
+      border: 1px solid #003756;
     }
 
     .columns {
@@ -194,6 +194,10 @@ footer {
 
   .project {
     margin: 0;
+
+    .mask {
+      border: 3px solid #003756;
+    }
 
     .right {
       float: right;
