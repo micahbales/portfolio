@@ -123,9 +123,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FEFEFE;
 }
 
+/* line 119, ../scss/portfolio.scss */
+footer {
+  padding: 20px 10px;
+  background-color: #003756;
+}
+/* line 123, ../scss/portfolio.scss */
+footer p {
+  color: #FEFEFE;
+  margin: 0;
+  text-align: center;
+}
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  /* line 122, ../scss/portfolio.scss */
+  /* line 133, ../scss/portfolio.scss */
   .splash-button {
     visibility: visible;
     width: 23.7%;
@@ -143,66 +155,66 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
   }
 
-  /* line 139, ../scss/portfolio.scss */
+  /* line 150, ../scss/portfolio.scss */
   .divider {
     height: 45px;
   }
 
-  /* line 143, ../scss/portfolio.scss */
+  /* line 154, ../scss/portfolio.scss */
   .after-splash {
     width: 75%;
     margin: 0 auto;
   }
 
-  /* line 148, ../scss/portfolio.scss */
+  /* line 159, ../scss/portfolio.scss */
   .bio, footer {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 153, ../scss/portfolio.scss */
+  /* line 164, ../scss/portfolio.scss */
   .header-title {
     margin-top: 5px;
   }
 
-  /* line 157, ../scss/portfolio.scss */
+  /* line 168, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 161, ../scss/portfolio.scss */
+  /* line 172, ../scss/portfolio.scss */
   .header-portrait {
     width: 125px;
     height: 125px;
   }
 
-  /* line 168, ../scss/portfolio.scss */
+  /* line 179, ../scss/portfolio.scss */
   .bio-main .contact .social-icons {
     font-size: 4em;
   }
 }
-/* line 175, ../scss/portfolio.scss */
+/* line 186, ../scss/portfolio.scss */
 .portfolio {
   padding: 3%;
   width: 95%;
   margin: 0 auto;
 }
-/* line 180, ../scss/portfolio.scss */
+/* line 191, ../scss/portfolio.scss */
 .portfolio .project {
   margin: 0;
 }
-/* line 183, ../scss/portfolio.scss */
+/* line 194, ../scss/portfolio.scss */
 .portfolio .project .right {
   float: right;
 }
-/* line 187, ../scss/portfolio.scss */
+/* line 198, ../scss/portfolio.scss */
 .portfolio .project .left {
   float: left;
 }
 
 /* large and up */
 @media screen and (min-width: 875px) {
-  /* line 197, ../scss/portfolio.scss */
+  /* line 208, ../scss/portfolio.scss */
   .splash-button {
     font-size: 36px;
   }
