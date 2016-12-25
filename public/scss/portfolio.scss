@@ -25,9 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
+.bio-header {
+  padding: 0 3%;
+}
+
 .bio-main {
   margin-top: 40px;
-  max-width: 1000px;
 
   .about {
     width: 50%;
@@ -61,6 +64,8 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 50%;
     margin: 0 auto;
+    margin-top: .3em;
+    font-size: 2.5em;
   }
 }
 
@@ -92,12 +97,41 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.bio-main {
-  .contact {
-    .social-icons {
-      margin-top: .3em;
-      font-size: 2.5em;
+.portfolio {
+
+  h2, h3, p {
+    text-align: center;
+  }
+
+  h2, p {
+    padding: 2% 5% 0% 5%;
+  }
+
+  .project {
+    margin: 0%;
+
+    .mask {
+      border: 1px solid #003756;
     }
+
+    .columns {
+      padding: 0;
+    }
+
+    .project-description {
+      background-color: #FEFEFE;
+    }
+  }
+}
+
+footer {
+  padding: 20px 10px;
+  background-color: #003756;
+
+  p {
+    color: #FEFEFE;
+    margin: 0;
+    text-align: center;
   }
 }
 
@@ -121,8 +155,18 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
   }
 
+  .divider {
+    height: 25px;
+  }
+
+  .after-splash {
+    width: 75%;
+    margin: 0 auto;
+  }
+
   .bio, footer {
-    margin: 20px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .header-title {
@@ -143,6 +187,28 @@ h1, h2, h3, h4, h5, h6 {
       .social-icons {
         font-size: 4em;
       }
+    }
+  }
+}
+
+.portfolio {
+  padding: 3%;
+  width: 100%;
+  margin: 0 auto;
+
+  .project {
+    margin: 0;
+
+    .mask {
+      border: 3px solid #003756;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .left {
+      float: left;
     }
   }
 }
