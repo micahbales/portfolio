@@ -51,22 +51,23 @@ h1, h2, h3, h4, h5, h6 {
   list-style-position: inside;
   list-style-type: disc;
   margin-right: 1em;
+  position: static;
 }
-/* line 46, ../scss/portfolio.scss */
+/* line 47, ../scss/portfolio.scss */
 .bio-main .about li span {
   position: relative;
   left: -15px;
 }
-/* line 53, ../scss/portfolio.scss */
+/* line 54, ../scss/portfolio.scss */
 .bio-main .contact {
   width: 50%;
   display: inline-block;
 }
-/* line 57, ../scss/portfolio.scss */
+/* line 58, ../scss/portfolio.scss */
 .bio-main .contact p {
   margin-bottom: 0px;
 }
-/* line 63, ../scss/portfolio.scss */
+/* line 64, ../scss/portfolio.scss */
 .bio-main .social-icons {
   position: relative;
   width: 50%;
@@ -75,22 +76,22 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5em;
 }
 
-/* line 72, ../scss/portfolio.scss */
+/* line 73, ../scss/portfolio.scss */
 .bio, footer {
   margin: 10px;
 }
 
-/* line 76, ../scss/portfolio.scss */
+/* line 77, ../scss/portfolio.scss */
 .header-title {
   margin-top: 15px;
 }
 
-/* line 80, ../scss/portfolio.scss */
+/* line 81, ../scss/portfolio.scss */
 .header-subtitle {
   margin-top: -15px;
 }
 
-/* line 84, ../scss/portfolio.scss */
+/* line 85, ../scss/portfolio.scss */
 .header-portrait {
   width: 100px;
   height: 100px;
@@ -99,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 100%;
   float: left;
 }
-/* line 92, ../scss/portfolio.scss */
+/* line 93, ../scss/portfolio.scss */
 .header-portrait img {
   display: inline;
   margin: 0 auto;
@@ -107,37 +108,37 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-/* line 102, ../scss/portfolio.scss */
+/* line 103, ../scss/portfolio.scss */
 .portfolio h2, .portfolio h3, .portfolio p {
   text-align: center;
 }
-/* line 106, ../scss/portfolio.scss */
+/* line 107, ../scss/portfolio.scss */
 .portfolio h2, .portfolio p {
   padding: 2% 5% 0% 5%;
 }
-/* line 110, ../scss/portfolio.scss */
+/* line 111, ../scss/portfolio.scss */
 .portfolio .project {
   margin: 0%;
 }
-/* line 113, ../scss/portfolio.scss */
+/* line 114, ../scss/portfolio.scss */
 .portfolio .project .mask {
   border: 1px solid #003756;
 }
-/* line 117, ../scss/portfolio.scss */
+/* line 118, ../scss/portfolio.scss */
 .portfolio .project .columns {
   padding: 0;
 }
-/* line 121, ../scss/portfolio.scss */
+/* line 122, ../scss/portfolio.scss */
 .portfolio .project .project-description {
   background-color: #FEFEFE;
 }
 
-/* line 127, ../scss/portfolio.scss */
+/* line 128, ../scss/portfolio.scss */
 footer {
   padding: 20px 10px;
   background-color: #003756;
 }
-/* line 131, ../scss/portfolio.scss */
+/* line 132, ../scss/portfolio.scss */
 footer p {
   color: #FEFEFE;
   margin: 0;
@@ -146,7 +147,7 @@ footer p {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  /* line 141, ../scss/portfolio.scss */
+  /* line 142, ../scss/portfolio.scss */
   .splash-button {
     visibility: visible;
     width: 23.7%;
@@ -164,70 +165,70 @@ footer p {
     cursor: pointer;
   }
 
-  /* line 158, ../scss/portfolio.scss */
+  /* line 159, ../scss/portfolio.scss */
   .divider {
     height: 25px;
   }
 
-  /* line 162, ../scss/portfolio.scss */
+  /* line 163, ../scss/portfolio.scss */
   .after-splash {
     width: 75%;
     margin: 0 auto;
   }
 
-  /* line 167, ../scss/portfolio.scss */
+  /* line 168, ../scss/portfolio.scss */
   .bio, footer {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 172, ../scss/portfolio.scss */
+  /* line 173, ../scss/portfolio.scss */
   .header-title {
     margin-top: 5px;
   }
 
-  /* line 176, ../scss/portfolio.scss */
+  /* line 177, ../scss/portfolio.scss */
   .header-subtitle {
     margin-top: -15px;
   }
 
-  /* line 180, ../scss/portfolio.scss */
+  /* line 181, ../scss/portfolio.scss */
   .header-portrait {
     width: 125px;
     height: 125px;
   }
 
-  /* line 187, ../scss/portfolio.scss */
+  /* line 188, ../scss/portfolio.scss */
   .bio-main .contact .social-icons {
     font-size: 4em;
   }
 }
-/* line 194, ../scss/portfolio.scss */
+/* line 195, ../scss/portfolio.scss */
 .portfolio {
   padding: 3%;
   width: 100%;
   margin: 0 auto;
 }
-/* line 199, ../scss/portfolio.scss */
+/* line 200, ../scss/portfolio.scss */
 .portfolio .project {
   margin: 0;
 }
-/* line 202, ../scss/portfolio.scss */
+/* line 203, ../scss/portfolio.scss */
 .portfolio .project .mask {
   border: 3px solid #003756;
 }
-/* line 206, ../scss/portfolio.scss */
+/* line 207, ../scss/portfolio.scss */
 .portfolio .project .right {
   float: right;
 }
-/* line 210, ../scss/portfolio.scss */
+/* line 211, ../scss/portfolio.scss */
 .portfolio .project .left {
   float: left;
 }
 
 /* large and up */
 @media screen and (min-width: 875px) {
-  /* line 220, ../scss/portfolio.scss */
+  /* line 221, ../scss/portfolio.scss */
   .splash-button {
     font-size: 36px;
   }
