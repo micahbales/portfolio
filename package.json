@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio site. Its purpose is to give an introduction to the projects I'm working on, and the value I can bring to your team.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "compass compile",
+    "dev": "ruby app.rb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahbales/portfolio.git"
+  },
+  "author": "Micah Bales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micahbales/portfolio/issues"
+  },
+  "homepage": "https://github.com/micahbales/portfolio#readme"
+}
