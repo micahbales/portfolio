@@ -26,58 +26,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bio-header {
+  width: 64%;
+  @media (min-width: 350px) { width: 60%; }
+  @media (min-width: 420px) { width: 50%; }
+  margin: 0 auto;
   padding: 0 3%;
+}
+
+.header-title {
+  min-width: 200px;
 }
 
 .bio-main {
   margin-top: 40px;
 
-  .about {
-    width: 50%;
-    margin: auto;
-    float: left;
-
-    li {
-      float: left;
-      list-style-position: inside;
-      list-style-type: disc;
-      margin-right: 1em;
-
-      span {
-        left: -15px;
-      }
-    }
-  }
-
-  .contact {
-    width: 50%;
-    display: inline-block;
-
-    p {
-      margin-bottom: 0px;
-    }
+  h4 {
+    text-align: center;
   }
 
   /* center social icons */
   .social-icons {
     position: relative;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     margin-top: .3em;
     font-size: 2.5em;
+    text-align: center;
   }
 }
 
 .bio, footer {
-  margin: 10px;
+  padding: 10px;
+}
+
+.bio {
+  padding-bottom: 15px;
 }
 
 .header-title {
   margin-top: 15px;
+  @media (min-width: 468px) { text-align: center; }
+  @media (min-width: 1115px) { text-align: left; }
 }
 
 .header-subtitle {
   margin-top: -15px;
+  @media (min-width: 468px) { text-align: center; }
+  @media (min-width: 1115px) { text-align: left; }
 }
 
 .header-portrait {
@@ -86,7 +81,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
   border-radius: 100%;
-  float: left;
+  margin: 0 auto;
+  width: 50%;
+  @media (min-width: 1115px) { float: left; }
 
   img {
     display: inline;
@@ -94,6 +91,27 @@ h1, h2, h3, h4, h5, h6 {
     width: 85%;
     height: auto;
   }
+}
+
+.bio-main {
+  width: 75%!important;
+  margin: 0 auto!important;
+
+  @media (min-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.about {
+
+  p {
+    text-align: center;
+  }
+}
+
+.specialities {
+  list-style: none;
+  text-align: center;
 }
 
 .portfolio {
